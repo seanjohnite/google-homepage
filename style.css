@@ -1,0 +1,151 @@
+/* CSS Styles */
+
+body {
+	font: 13px arial, sans-serif;
+}
+
+* {
+}
+
+#navbar {
+	height: 50px;
+	width: 100%;
+}
+
+#navbar ul {
+	margin: 0;
+	display: flex;
+	line-height: 40px;
+	float:right;
+}
+
+#navbar li {
+	display: flex;
+	color: rgba(0,0,0,.55);
+	padding: 5px;
+	padding-right: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+#google_logo {
+	width: 269px;
+	margin: auto;
+}
+
+
+
+.home {
+    height: 44px;
+    width: 46px;
+    background: url('img_navsprites.gif') 0 0;
+}
+
+.box_image {
+	background: url('https://ssl.gstatic.com/gb/images/i1_71651352.png') -326px -52px;
+	height: 30px;
+	width: 30px;
+	opacity: .55;
+	display:block;
+	margin-top: 5px;
+}
+
+.box_image:hover {
+	opacity: 1;
+}
+
+.alarm_image {
+	background: url('https://ssl.gstatic.com/gb/images/i1_71651352.png') -214px -117px;
+	background-color: rgba(0,0,0,.55);
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	display:block;
+	margin-top: 10px;
+}
+
+.alarm_image:hover {
+	background-color: rgba(0,0,0,1);
+}
+
+.chat_image {
+	background: url('https://ssl.gstatic.com/gb/images/i1_71651352.png') -326px -17px;
+	height: 30px;
+	width: 30px;
+	opacity: .55;
+	display:block;
+	margin-top: 5px;
+}
+
+.chat_image:hover {
+	opacity: 1;
+}
+
+.sean_image {
+	background: url('https://lh4.googleusercontent.com/-ojhE9JBQ1g8/AAAAAAAAAAI/AAAAAAAAAAA/gRJxqQ8ioTs/s32-c/photo.jpg') 0 0;
+	height: 32px;
+	width: 32px;
+	border-radius: 50%;
+	margin-top: 3px;
+	margin-right: 30px;
+}
+
+.boxtest {
+	height: 200px;
+	width: 200px;
+	background: #222;
+	margin: 0 auto;
+}
+
+#main_content {
+	margin: 200px;
+}
+
+.logo {
+	height: 95px;
+}
+
+#query {
+	width: 400px;
+	margin-bottom: 10px;
+}
+
+#main_form {
+	width: 400px;
+	margin: 20px auto;
+}
+
+#bottom_nav {
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	display: inline-block;
+	background-color: #f5f5f5;
+	border-top: 1px solid #e0e0e0;
+}
+
+#bottom_nav ul li {
+	display: inline-block;
+	margin: 12px;
+	margin-right: 15px;
+	color: #222;
+
+}
+
+#bottom_nav a {
+	display: inline-block;
+}
+
+.bottom_left_nav {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.bottom_right_nav {
+	float: right;
+	display: inline;
+	margin-right: 20px;
+}
